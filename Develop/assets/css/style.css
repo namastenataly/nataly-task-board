@@ -14,3 +14,13 @@ body {
 .task-card:hover {
   cursor: grab;
 }
+
+#nys-cards .card {
+  background-color: #f8d7da; /* Light red for "Not Yet Started" */
+}
+#in-progress-cards .card {
+  background-color: #fff3cd; /* Light yellow for "In Progress" */
+}
+#complete-cards .card {
+  background-color: #d4edda; /* Light green for "Complete" */
+}
